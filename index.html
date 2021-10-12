@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="mis_script.js" type="text/javascript"></script>
+ 
+    <title>Document</title>
+</head>
+<body>
+    <form style="color: brown">
+        <h1>Formulario de contacto</h1>
+        <label>Para:</label>
+        <input type="text"><br><br>
+
+        <label>Tematica:</label>
+        <select name="tematica" required>
+            <option hidden selected>--Elige un tema--</option>
+            <option value="Consulta">Consulta</option>
+            <option value="Trabajo">Propuesta</option>
+            <option value="Publicidad">Reporte</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <br><br>
+        <label>Asunto:</label>
+        <input type="text" ><br><br>
+       
+        <label>Cuerpo:</label><br>
+        <textarea name="mensaje"  rows="4" cols="25" placeholder="Mensaje..." required></textarea>
+
+        <br><br>
+        <button id="btn">Enviar</button>
+
+    </form>
+    <br><br>
+
+    <form style="color: brown">
+        <h1>Formulario de registro</h1>
+        <label>Nombre:</label>
+        <input type="text"><br><br>
+
+        <label>Apellido:</label>
+        <input type="text"><br><br>
+
+        <label>Sexo:</label>
+        <input type="radio" name="sexo"><label>Mujer</label>
+        <input type="radio" name="sexo"><label>Hombre</label><br><br>
+
+        <label>Correo:</label>
+        <input type="text"><br><br>
+        
+        <input type="checkbox"><label style="font-style: oblique">Deseo recibir informacion sobre novedades y ofertas</label><br>
+        <input type="checkbox"><label style="font-style: oblique">Declaro haber leido y aceptado las condiciones generales del programa y la normativa sobre la proteccion de datos</label><br>
+        <br>
+
+        <button>Enviar</button>
+    </form>
+    <br>
+</body>
+</html>
